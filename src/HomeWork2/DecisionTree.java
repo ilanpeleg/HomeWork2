@@ -42,6 +42,7 @@ class Node {
         //buildTree should add a new BasicRule to current list of BasicRules
     }
 
+
     public boolean isPerfectlyClassified() {
         double firstClassValue = instances.instance(0).classValue();
 
